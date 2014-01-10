@@ -1737,8 +1737,8 @@ CSSOM.clone = function clone(stylesheet) {
 
 
 $( document ).ready( function(){
-	$( 'head' ).prepend(
-		"<style src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/cjk.css'></style>");
+	$( 'head' ).append(
+		"<link rel='stylesheet' href='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/cjk.css'>");
 	$( 'p,div' ).unicodeRange( {debug: true } );
 	});
 
