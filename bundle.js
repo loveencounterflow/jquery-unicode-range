@@ -1735,3 +1735,18 @@ CSSOM.clone = function clone(stylesheet) {
 
 
 
+
+$( document ).ready( function(){
+	$( 'head' ).prepend(
+		"<style src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/cjk.css'></style>");
+	$( 'p,div' ).unicodeRange( {debug: true } );
+	});
+
+
+
+
+
+
+
+
+
