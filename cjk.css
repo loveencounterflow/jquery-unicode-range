@@ -7,20 +7,20 @@
 @font-face {
   font-family: 'Sun-ExtA';
   src: local('Sun-ExtA');
-  unicode-range: U+4E00-9FFF    /* CJK Unified Ideographs                  u-cjk          */
-  unicode-range: U+3400-4DBF    /* CJK Unified Ideographs Extension A      u-cjk-xa       */
-  unicode-range: U+20000-2A6DF  /* CJK Unified Ideographs Extension B      u-cjk-xb       */
-  unicode-range: U+2A700-2B73F  /* CJK Unified Ideographs Extension C      u-cjk-xc       */
-  unicode-range: U+2B740-2B81F  /* CJK Unified Ideographs Extension D      u-cjk-xd       */
-  unicode-range: U+2F00-2FDF    /* Kangxi Radicals                         u-cjk-rad1     */
-  unicode-range: U+2E80-2EFF    /* CJK Radicals Supplement                 u-cjk-rad2     */
-  unicode-range: U+3000-303F    /* CJK Symbols and Punctuation             u-cjk-sym      */
-  unicode-range: U+31C0-31EF    /* CJK Strokes                             u-cjk-strk     */
-  unicode-range: U+3200-32FF    /* Enclosed CJK Letters and Months         u-cjk-enclett  */
-  unicode-range: U+3300-33FF    /* CJK Compatibility                       u-cjk-cmp      */
-  unicode-range: U+F900-FAFF    /* CJK Compatibility Ideographs            u-cjk-cmpi1    */
-  unicode-range: U+FE30-FE4F    /* CJK Compatibility Forms                 u-cjk-cmpf     */
-  unicode-range: U+2F800-2FA1F  /* CJK Compatibility Ideographs Supplement u-cjk-cmpi2    */
+  unicode-range: U+4E00-9FFF;    /* CJK Unified Ideographs                  u-cjk          */
+  unicode-range: U+3400-4DBF;    /* CJK Unified Ideographs Extension A      u-cjk-xa       */
+  unicode-range: U+20000-2A6DF;  /* CJK Unified Ideographs Extension B      u-cjk-xb       */
+  unicode-range: U+2A700-2B73F;  /* CJK Unified Ideographs Extension C      u-cjk-xc       */
+  unicode-range: U+2B740-2B81F;  /* CJK Unified Ideographs Extension D      u-cjk-xd       */
+  unicode-range: U+2F00-2FDF;    /* Kangxi Radicals                         u-cjk-rad1     */
+  unicode-range: U+2E80-2EFF;    /* CJK Radicals Supplement                 u-cjk-rad2     */
+  unicode-range: U+3000-303F;    /* CJK Symbols and Punctuation             u-cjk-sym      */
+  unicode-range: U+31C0-31EF;    /* CJK Strokes                             u-cjk-strk     */
+  unicode-range: U+3200-32FF;    /* Enclosed CJK Letters and Months         u-cjk-enclett  */
+  unicode-range: U+3300-33FF;    /* CJK Compatibility                       u-cjk-cmp      */
+  unicode-range: U+F900-FAFF;    /* CJK Compatibility Ideographs            u-cjk-cmpi1    */
+  unicode-range: U+FE30-FE4F;    /* CJK Compatibility Forms                 u-cjk-cmpf     */
+  unicode-range: U+2F800-2FA1F;  /* CJK Compatibility Ideographs Supplement u-cjk-cmpi2    */
 }
 
 div {
