@@ -1,3 +1,9 @@
+
+
+Trying to convert the jQuery `unicode-range` plugin into a bookmarklet; so far unsuccesfully.
+
+
+
 This jQuery plugin emulates the CSS3 descriptor unicode-range http://www.w3.org/TR/css3-fonts/#unicode-range-desc. It detects DOM elements that have associated *@font-face* rules that include *unicode-range* descriptors, and only applies the rule to those  characters that match the given Unicode range.
 
 To use:
