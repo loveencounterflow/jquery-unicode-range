@@ -2,7 +2,8 @@
  -->
 <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://codeorigin.jquery.com/jquery-1.10.2.min.js';})();">jQuerify (1.10.2)</a>
 
-document.body.appendChild(document.createElement('script')).src='http://codeorigin.jquery.com/jquery-1.10.2.min.js';document.body.appendChild(document.createElement('script')).src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/lib/CSSOM.js';document.body.appendChild(document.createElement('script')).src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/lib/modernizr-build.js';$(document).ready(function(){$('p,div').unicodeRange({debug:true});});
+document.body.appendChild(document.createElement('script')).src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/lib/bundle.js';$(document).ready(function(){$('p,div').unicodeRange({debug:true});});
+$.('head').prepend("<style src=''></style>")
 
 @font-face {
     font-family: 'SSP';
