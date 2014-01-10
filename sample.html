@@ -1,0 +1,22 @@
+<!-- <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://code.jquery.com/jquery-migrate-1.2.1.min.js';})();">jQuerify (1.2.1)</a>
+ -->
+<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://codeorigin.jquery.com/jquery-1.10.2.min.js';})();">jQuerify (1.10.2)</a>
+
+document.body.appendChild(document.createElement('script')).src='http://codeorigin.jquery.com/jquery-1.10.2.min.js';document.body.appendChild(document.createElement('script')).src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/lib/CSSOM.js';document.body.appendChild(document.createElement('script')).src='https://github.com/loveencounterflow/jquery-unicode-range/raw/master/lib/modernizr-build.js';$(document).ready(function(){$('p,div').unicodeRange({debug:true});});
+
+@font-face {
+    font-family: 'SSP';
+    src: url('f/SourceSansPro-Bold.ttf');
+    unicode-range: U+41-4D, U+6E, U+6F, U+7?;
+  }
+  p {font: 2.5em SSP, serif;}
+
+$("head").prepend("<style type=\"text/css\">" +
+                                "@font-face {\n" +
+                                    "\tfont-family: \"myFont\";\n" +
+                                    "\tsrc: local('☺'), url('myFont.otf') format('opentype');\n" +
+                                "}\n" +
+                                    "\tp.myClass {\n" +
+                                    "\tfont-family: myFont !important;\n" +
+                                "}\n" +
+                            "</style>");
